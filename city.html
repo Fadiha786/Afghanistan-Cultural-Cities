@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>City</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <style type="text/css">
+
+     #slider {
+     overflow: hidden;
+    }
+
+    #slider figure {
+      width: 500%;
+      position: relative;
+      margin: 0;
+      left: 0;
+      animation: 20s slider infinite;
+    }
+
+#slider figure img{
+  float: left;
+  width: 20%;
+}
+
+#slider img{
+   flex: 1 1 300px;
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease;
+}
+    
+   @keyframes slider{
+    0%{left: 0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+   }
+  </style>
+  </style>
+</head>
+<body>
+ <header>
+    <h1>Cultural Cities of Afghanistan</h1>
+    <h2>Discover the rich heritage and vibrant stories</h2>
+  </header>
+  <nav>
+    <ul>
+    	<li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="city.html">City</a></li>
+      <li><a href="submit.html">Submit</a></li>
+    </ul>
+  </nav>
+
+ 
+   <section class="city-of-the-day">
+  
+      <div id="slider">
+      <figure class="city-img">
+        <img src="herat1.jpg" alt="هرات 1">
+        <img src="herat2.jpg" alt="هرات 2">
+        <img src="herat3.jpg" alt="هرات 3">
+        <img src="herat4.jpg" alt="هرات 4"
+      </figure>
+       <p style="text-align: center;">Term of services and <a href="#">privacy</a></p>
+    </div>
+
+  </section> 
+
+   <footer>
+        <p>@copyright 2025</p>
+      </footer>
+     <p style="text-align: center; font-size: 20px; padding-bottom: 15px;">Term of services and <a href="#">privacy</a></p>
+</body>
+</html>
